@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p /tmp/foo
+mkdir -p /tmp/foo && cat | tar -x -C /tmp/foo
+cd /tmp/foo
+docker build .
