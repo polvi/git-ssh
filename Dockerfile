@@ -8,3 +8,4 @@ ADD gitreceive /home/git/gitreceive
 ADD receiver /home/git/receiver
 ADD wrapdocker /usr/local/bin/wrapdocker
 EXPOSE 22
+ENTRYPOINT wrapdocker
